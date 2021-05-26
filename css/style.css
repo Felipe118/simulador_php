@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+#header{
+    background-color: steelblue;
+}
+
+
+#dinheiro{
+    width:150px;
+    color: black;
+    background: transparent;
+    font-weight: bold;
+    font-size: 20px;
+  
+}
+#topo{
+        background-color:   rgb(1,119,193);
+        height: 178px;
+    } 
+#text-topo{
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+    }
+#formulario{
+        box-shadow: 3px 3px 3px 3px  grey;
+        height: 400px;
+        margin:120px auto;
+        border-radius: 5px;
+       }
+    #form{
+      
+        /*
+        display: inline-block;
+        margin: 0 auto;
+        padding:10px;
+        margin-left: 300px;
+        margin-top: 220px;
+        */
+        margin: 150px  auto;
+        width: 500px;
+
+    }
+    label{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .marcador{
+        border: 1px solid gold;
+    }
+    .box{
+        width: 165px;
+        height: 105px;
+        margin: 0px 5px 5px 0px;
+        border-radius: 9px;
+    }
+    .span{
+        margin-left: 70px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .text-h3{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .text-index{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: bold;
+       }
+    #botao{
+           margin-left: 20px;
+           margin-bottom: 5px;
+        }
+    
+    /*CSS RODAPE*/
+    .footer{
+        height: auto;
+        background: rgb(71, 71, 70);
+    }
+    .container-rodape{
+       
+        padding:20px;
+        
+
+    }
+    .text-rodape{
+        color: white;
+        font-weight: bold;
+    }
+    .ml-5{
+        margin-left: 120px !important;
+    }
+    ul{
+        list-style: none;
+      }
+    .menu-rodape >ul>li{
+      
+        display: inline-block;
+        margin-top: 40px;
+      
+    }
+    .menu-rodape >ul>li> a{
+        
+        color: rgb(226, 225, 225);
+        padding: 10px;
+       
+    }
+    hr{
+        color:whitesmoke;
+    }
+    P{
+        color: whitesmoke;
+    }
+    .whatsapp{
+        text-decoration: none;
+        color: white;
+        font-size: large;
+    }
+    .whatsapp:hover{
+        color: white;;
+    }
+   .icon-zap{
+        color: rgb(12, 136, 12);
+        width: 30px;
+    }
+    .icon-email{
+        color: whitesmoke;
+        width: 30px;
+    }
+
+/*Responsividade CSS*/
+@media only screen and (max-width:576px){
+    .ml-5{
+        margin-left: 0px !important;
+    }
+    #dinheiro{
+        width:190px;
+        color: black;
+        background: transparent;
+        font-weight: bold;
+        font-size: 20px;
+      
+    }
+    #form{
+        margin: 150px  auto;
+        width: 200px;
+    }
+    
+    #botao{
+       margin-top: 20px;
+     }
+ 
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+    #form{
+        margin: 150px  auto;
+        width: 300px;
+    }
+    
+    #botao{
+       margin-top: 20px;
+     }
+ 
+}
+/*
+@media only screen and (min-width:768px) and (max-width:992px){
+   
+}
+@media only screen and (min-width:992px ) and (max-width:1200px){
+ 
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
+
+}
+*/
+      
+    
