@@ -34,7 +34,7 @@
             <h2 class="  d-flex text-index align-center justify-content-center" >Insira o Valor do seu emprestimo</h2>
             <div id="form"  align="center">
             
-                <form action="calcula.php" method="post">
+                <form action="index_calculo.php" method="post">
                     <label for="dinheiro">R$</label> <input type="text" class="form-control w-50 " id="dinheiro" name="dinheiro"  required style="display:inline-block" />
                     <button id="botao" class="btn btn-outline-primary btn-lg ">Simular</button>
                 </form>
