@@ -24,12 +24,15 @@
     <div class="container-fluid col-12" >
         
         <div class="row">
-            <section class="col" id="topo">
-                <h1 id="text-topo">Simule o valor do seu empréstimo</h1>
+            <section class="col-12 bg-success" id="topo">
+            <div class=" img-logo">
+                <a href="../index.html"><img src="img/logo_branco.png" class="img-fluid m-2" alt="Logo"></a>
+            </div>
+                <h1 class ="col-8  mb-5" id="text-topo">Simule o valor do seu empréstimo</h1>
             </section>
         </div>
         <section id="formulario" class="col-12s mt-2">
-            <h2 class="text-index  d-flex text-index align-center justify-content-center">Parcelas </h2>
+            <h2 class="text-index  d-flex align-center justify-content-center">Parcelas </h2>
             
             <div class="container-flex">
                
@@ -103,7 +106,7 @@
                 </div>
             </div>
             <div class="row div-api"> 
-                <a  class="btn btn-info w-25 ml-3 botao-api" data-index="0" data-type="button" tabindex="0" data-href="https://api.whatsapp.com/send?phone=5561999368586" href="https://api.whatsapp.com/send?phone=5561999368586" target="_blank"  data-property="buttons">Peça seu Emprestimo</a>
+                <a  class="btn btn-success w-25 ml-3 botao-api" data-index="0" data-type="button" tabindex="0" data-href="https://api.whatsapp.com/send?phone=5561999368586" href="https://api.whatsapp.com/send?phone=5561999368586" target="_blank"  data-property="buttons">Peça seu Emprestimo</a>
             </div>
            
                 

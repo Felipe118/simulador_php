@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
@@ -28,9 +28,8 @@
             <section class="col bg-success" id="topo">
             <div class=" img-logo">
                 <a href="../index.html"><img src="img/logo_branco.png" class="img-fluid m-2" alt="Logo"></a>
-                
             </div>
-                <h1 class="col-8 l-5 mb-5" id="text-topo">Simule o valor do seu empréstimo</h1>
+                <h1 class="col-8  mb-5" id="text-topo">Simule o valor do seu empréstimo</h1>
             </section>
         </div>
         
@@ -40,7 +39,7 @@
             
                 <form action="index_calculo.php" method="post">
                     <label for="dinheiro">R$</label> <input type="text" class="form-control w-50 " id="dinheiro" name="dinheiro"  required style="display:inline-block" />
-                    <button id="botao" class="btn btn-outline-primary btn-lg ">Simular</button>
+                    <button id="botao" class="btn btn-outline-success btn-lg ">Simular</button>
                 </form>
         
             </div>
@@ -72,7 +71,6 @@
                 </p><br>
 
                 <a href="tel:+5561999368586" class="whatsapp">   <ion-icon class="icon-zap" name="logo-whatsapp"></ion-icon> (61) 99936-8586 </a><br>
-
                 <a href="malito:EMPRESTIMO@ZE.COM.BR" style="color: whitesmoke;">  <ion-icon class="icon-email" name = "mail-outline"> </ion-icon> EMPRESTIMO@ZE.COM.BR</a> 
                
         

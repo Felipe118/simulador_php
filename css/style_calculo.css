@@ -10,22 +10,31 @@
 input{
     width:150px;
 }
-    #topo{
+#topo{
         background-color:   rgb(1,119,193);
         height: 178px;
-    } 
-    #text-topo{
-        color: white;
-        text-align: center;
-        margin-top: 50px;
+} 
+.img-logo{
+    
+    width: 170px;
+    height: 100px;
+    margin: 20px;
+ 
     }
-    #formulario{
+#text-topo{
+    position: relative;
+    left: 250px;
+    bottom: 90px;
+    color: white;
+    text-align: center;
+}
+#formulario{
         box-shadow: 3px 3px 3px 3px  grey;
         margin:0 auto;
         margin-top: 120px;
         border-radius: 5px;
-    }
-    #form{
+}
+#form{
         border:1px solid black;
         display: inline-block;
         margin: 0 auto;
@@ -35,7 +44,7 @@ input{
 
     }
    
-    .box{
+.box{
         width: 155px;
         height: 105px;
         margin: 0px 20px 20px 20px;
@@ -46,16 +55,16 @@ input{
         flex-shrink: 3;
        
     }
-    .span{
+.span{
         margin-left: 70px;
         font-weight: bold;
         margin-top: 5px;
     }
-    .text-h3{
+.text-h3{
         margin-top: 15px;
         margin-left: 10px;
     }
-    #valor{
+#valor{
        
         margin-left: 30px;
         position: relative;
@@ -63,13 +72,13 @@ input{
         
         color: black;
     }
-    .span{
+.span{
        
         font-size: 15px;
         
     }
    
-    .container-flex{
+.container-flex{
         margin-top: 90px;
         display: flex;
         flex-wrap: wrap;
@@ -80,22 +89,26 @@ input{
         
         
     }
-    .text-index{
+.text-index{
         font-family: 'Noto Sans KR', sans-serif;
+        margin: 20px;
+        padding-top: 30px;
+        display: inline-block;
+        text-align: center;
        
     }
-    .small{
+.small{
         margin-left: 40px;
     }
-    .ml-3{
+.ml-3{
         
         margin-left: 490px !important;
     }
-   .div-api{
+.div-api{
         padding: 20px;
         
     }
-    .div-api > a{
+.div-api > a{
        color: white;
        font-weight: bold;
     }
@@ -130,10 +143,7 @@ input{
         margin-top: 40px;
         padding: 10px;
       
-      
-     
-       
-    }
+      }
     
     #formulario{
         box-shadow: 3px 3px 3px 3px  grey;
@@ -149,6 +159,16 @@ input{
         right: 300px;
         width: 520px;
     }
+    #text-topo{
+        display: none;
+       }
+       .img-logo{
+    
+        width: 170px;
+        height: 100px;
+        margin-left: 180px;
+ 
+    }
 
 }
 
@@ -158,6 +178,16 @@ input{
        position: relative;
        right:300px;
     }
+    #text-topo{
+        display: none;
+       }
+       .img-logo{
+    
+        width: 170px;
+        height: 100px;
+        margin-left: 250px;
+ 
+    }
  
 }
 
@@ -165,7 +195,7 @@ input{
     .div-api{
         padding: 20px;
        position: relative;
-       right: 300px;
+       right: 200px;
     }
 }
 /*

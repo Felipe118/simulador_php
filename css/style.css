@@ -39,7 +39,7 @@
         bottom: 90px;
         color: white;
         text-align: center;
-        margin-bottom: 60px;
+        
        }
 #formulario{
         box-shadow: 3px 3px 3px 3px  grey;
@@ -47,7 +47,7 @@
         margin:120px auto;
         border-radius: 5px;
        }
-    #form{
+#form{
         /*
         display: inline-block;
         margin: 0 auto;
@@ -58,31 +58,31 @@
         margin: 150px  auto;
         width: 500px;
     }
-    label{
+label{
         font-size: 20px;
         font-weight: bold;
     }
     
-    .box{
+.box{
         width: 165px;
         height: 105px;
         margin: 0px 5px 5px 0px;
         border-radius: 9px;
     }
-    .span{
+.span{
         margin-left: 70px;
         font-weight: bold;
         margin-top: 5px;
     }
-    .text-h3{
+.text-h3{
         margin-top: 15px;
         margin-left: 10px;
     }
-    .text-index{
+.text-index{
         font-family: 'Noto Sans KR', sans-serif;
         font-weight: bold;
        }
-    #botao{
+#botao{
            margin-left: 20px;
            margin-bottom: 5px;
         }
