@@ -12,12 +12,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
-    
     <title>Zé do Emprestimo - Simulador</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script src="dist/jquery.maskMoney.min.js" type="text/javascript"></script> 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "img/logo.png"/>
 </head>
 <body >
   
@@ -108,13 +106,9 @@
             <div class="row div-api"> 
                 <a  class="btn btn-success w-25 ml-3 botao-api" data-index="0" data-type="button" tabindex="0" data-href="https://api.whatsapp.com/send?phone=5561999368586" href="https://api.whatsapp.com/send?phone=5561999368586" target="_blank"  data-property="buttons">Peça seu Emprestimo</a>
             </div>
-           
-                
-            </div>
+           </div>
         </section>
 
-       
-    
     </div>
  
 </body>
