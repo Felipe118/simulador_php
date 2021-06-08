@@ -15,15 +15,32 @@
     font-size: 20px;
   
 }
+.text-h2{
+   
+    margin: 20px;
+    padding: 20px;
+    
+ }
+.img-logo{
+    
+    width: 170px;
+    height: 100px;
+    margin: 20px;
+ 
+    }
 #topo{
-        background-color:   rgb(1,119,193);
         height: 178px;
     } 
+    
+   
 #text-topo{
+        position: relative;
+        left: 250px;
+        bottom: 90px;
         color: white;
         text-align: center;
-        margin-top: 50px;
-    }
+        margin-bottom: 60px;
+       }
 #formulario{
         box-shadow: 3px 3px 3px 3px  grey;
         height: 400px;
@@ -31,7 +48,6 @@
         border-radius: 5px;
        }
     #form{
-      
         /*
         display: inline-block;
         margin: 0 auto;
@@ -41,15 +57,12 @@
         */
         margin: 150px  auto;
         width: 500px;
-
     }
     label{
         font-size: 20px;
         font-weight: bold;
     }
-    .marcador{
-        border: 1px solid gold;
-    }
+    
     .box{
         width: 165px;
         height: 105px;
@@ -151,6 +164,21 @@
     #botao{
        margin-top: 20px;
      }
+     #text-topo{
+        display: none;
+       }
+       .img-logo{
+    
+        width: 170px;
+        height: 100px;
+        margin-left: 180px;
+ 
+    }
+    .text-h2{
+        margin: 20px;
+        padding: 10px;
+        margin-left: 20px;
+     }
  
 }
 
@@ -159,9 +187,24 @@
         margin: 150px  auto;
         width: 300px;
     }
+    .img-logo{
+    
+        width: 170px;
+        height: 100px;
+        margin-left: 220px;
+ 
+    }
+    #text-topo{
+        display: none;
+       }
     
     #botao{
        margin-top: 20px;
+     }
+     .text-h2{
+        margin: 20px;
+        padding: 10px;
+        margin-left: 20px;
      }
  
 }

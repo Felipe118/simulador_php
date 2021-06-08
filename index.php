@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Simulador - Ze do Emprestimo</title>
-    
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "img/logo.png"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js" integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -24,14 +24,18 @@
   
     <div class="container-fluid col-12" >
         
-        <div class="row">
-            <section class="col" id="topo">
-                <h1 id="text-topo">Simule o valor do seu emprestimo</h1>
+        <div class="row ">
+            <section class="col bg-success" id="topo">
+            <div class=" img-logo">
+                <a href="../index.html"><img src="img/logo_branco.png" class="img-fluid m-2" alt="Logo"></a>
+                
+            </div>
+                <h1 class="col-8 l-5 mb-5" id="text-topo">Simule o valor do seu empréstimo</h1>
             </section>
         </div>
         
         <section id="formulario" class="col-8 ">
-            <h2 class="  d-flex text-index align-center justify-content-center" >Insira o Valor do seu emprestimo</h2>
+            <h2 class=" text-h2 d-flex text-index align-center justify-content-center" >Digite o valor </h2>
             <div id="form"  align="center">
             
                 <form action="index_calculo.php" method="post">
